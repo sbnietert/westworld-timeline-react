@@ -1,0 +1,12 @@
+.TimelineContentBlock_content--text {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.25em;
+  padding: 1em 1em 0.7em 1em;
+  line-height: 16px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.TimelineContentBlock_content--text:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

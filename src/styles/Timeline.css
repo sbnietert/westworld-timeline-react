@@ -1,0 +1,25 @@
+.Timeline {
+  width: 50%;
+  height: 100%;
+  float:left;
+  overflow-y: scroll;
+}
+
+.Timeline_container {
+  position: relative;
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.Timeline_container::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}

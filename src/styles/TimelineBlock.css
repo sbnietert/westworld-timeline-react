@@ -1,0 +1,17 @@
+.TimelineBlock {
+  position: relative;
+  margin: 2em 0;
+}
+
+.TimelineBlock:first-child {
+  margin-top: 0;
+}
+
+.TimelineBlock:last-child {
+  margin-bottom: 0;
+}
+
+.TimelineBlock_marker {
+  position: absolute;
+  background-color: #fff;
+}

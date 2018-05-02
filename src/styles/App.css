@@ -1,0 +1,97 @@
+/* -------------------------------- 
+Fonts
+-------------------------------- */
+@font-face {
+  font-family: AvenirLT-Light;
+  src:  url(../fonts/AvenirLT-Light.woff2) format("woff2"),
+        url(../fonts/AvenirLT-Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: AvenirLT-Medium;
+  src:  url(../fonts/AvenirLT-Medium.woff2) format("woff2"),
+        url(../fonts/AvenirLT-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: MuseoSlab;
+  src:  url(../fonts/MuseoSlab.woff2) format("woff2"),
+        url(../fonts/MuseoSlab.woff) format("woff");
+}
+
+/* -------------------------------- 
+Style
+-------------------------------- */
+.App {
+  font-size: 14px;
+  font-family: MuseoSlab, serif;
+  color: white;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.App h1, h2 {
+  text-transform: uppercase;
+}
+
+.App h1 {
+  font-family: AvenirLT-Medium, sans-serif;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+.App h2 {
+  font-family: AvenirLT-Light, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.App header {
+  height: 150px;
+  border-bottom: 1px solid #7b3e29;
+}
+
+.map-header {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.timeline-header {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.timeline-header-logo {
+  width: 125px;
+  height: 125px;
+}
+
+.timeline-header-text-container {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.content-container {
+  height: calc(100% - 151px);
+}
+
+.map-test {
+  height: 100%;
+  width: 50%;
+  float: right;
+  background: red;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.map-test img {
+  height: 100%;
+}

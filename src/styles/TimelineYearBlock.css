@@ -1,0 +1,16 @@
+.TimelineBlock_marker--year {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+}
+
+.TimelineYearBlock_year {
+  position: relative;
+  margin-left: 60px;
+}
+
+.TimelineYearBlock_year h2 {
+  font-size: 30px;
+}
