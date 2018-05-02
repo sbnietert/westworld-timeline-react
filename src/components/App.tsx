@@ -1,14 +1,14 @@
 import * as React from 'react';
 import '../styles/App.css';
 import Map from './Map';
-import { IStorylineProps } from './Storyline';
+import { IStorylineData } from './Storyline';
 import StorylineDetails from './StorylineDetails';
 import Timeline from './Timeline';
 
 import logo from '../images/westworld-logo.svg';
 
 interface IAppState {
-  selectedStorylineProps?: IStorylineProps;
+  selectedStorylineData?: IStorylineData;
 }
 
 class App extends React.Component<{},IAppState> {
@@ -29,19 +29,19 @@ class App extends React.Component<{},IAppState> {
               <h1>Season 1 Timeline</h1>
             </div>
           </div>
-          <StorylineDetails selectedStorylineProps={this.state.selectedStorylineProps}/>
+          <StorylineDetails selectedStorylineData={this.state.selectedStorylineData}/>
         </header>
         <div className="content-container">
           <Timeline onStorylineSelected={this.onStorylineSelected}/>
-          <Map selectedLocations={this.state.selectedStorylineProps && this.state.selectedStorylineProps.locations}
-            mesaHubFocused={this.state.selectedStorylineProps && this.state.selectedStorylineProps.inMesaHub} />
+          <Map selectedLocations={this.state.selectedStorylineData && this.state.selectedStorylineData.locations}
+            mesaHubFocused={this.state.selectedStorylineData && this.state.selectedStorylineData.inMesaHub} />
         </div>
       </div>
     );
   }
-  private onStorylineSelected = (props: IStorylineProps) => {
+  private onStorylineSelected = (props: IStorylineData) => {
     this.setState({
-      selectedStorylineProps: props
+      selectedStorylineData: props
     });
   };
 }

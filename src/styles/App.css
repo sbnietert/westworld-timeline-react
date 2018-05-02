@@ -48,6 +48,12 @@ Style
   letter-spacing: 1px;
 }
 
+.App h3 {
+  font-family: AvenirLT-Light, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
 .App header {
   height: 150px;
   border-bottom: 1px solid #ff9f00;
@@ -69,8 +75,8 @@ Style
 }
 
 .timeline-header-logo {
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
 }
 
 .timeline-header-text-container {

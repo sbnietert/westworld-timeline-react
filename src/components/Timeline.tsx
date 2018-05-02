@@ -1,46 +1,64 @@
 import * as React from 'react';
+// @ts-ignore
+import timelineData from '../data/timeline.json';
 import '../styles/Timeline.css';
-import Storyline, { IStorylineProps } from './Storyline';
+import Storyline, { IStorylineData } from './Storyline';
 import TimelineStorylinesBlock from './TimelineStorylinesBlock';
 import TimelineTextBlock from './TimelineTextBlock';
 import TimelineYearBlock from './TimelineYearBlock';
 
-import bernard from '../images/bernard.jpg';
-import dolores from '../images/dolores.png';
-
 interface ITimelineProps {
-  onStorylineSelected: (props: IStorylineProps) => void;
+  onStorylineSelected: (data: IStorylineData) => void;
 }
 
-function Timeline(props: ITimelineProps) {
-  return (
-    <section className="Timeline">
-      <div className="Timeline_container">
-        <TimelineYearBlock year={2017} />
-        <TimelineTextBlock title="Early Days of the Park"
-          text="Arnold and Ford create hosts as they prepare to open Westworld." />
-        <TimelineStorylinesBlock>
-          <Storyline name="Welcome to Sweetwater" screenshot={dolores} locations={['Sweetwater', 'Abernathy Ranch']}
-            description="Dolores is introduced as the audience witnesses her standard timeloop for the first time."
-            season={1} episode={1} onSelect={props.onStorylineSelected} />
-          <Storyline name="Behind the Scenes" screenshot={bernard} locations={['Control Room', 'Behavior Lab', 'Mesa Gold']}
-            description="Bernard and his team notice Ford's 'reveries' update." inMesaHub={true}
-            season={1} episode={2} onSelect={props.onStorylineSelected} />
-        </TimelineStorylinesBlock>
-        <TimelineYearBlock year={2022} />
-        <TimelineTextBlock title="William and Logan's Visit"
-          text="William and Logan come to the park, eventually saving it from financial collapse with a large monetary investment." />
-        <TimelineStorylinesBlock>
-          <Storyline name="Dolores" screenshot={dolores} locations={['Lowlands', 'Sea']}
-            description=""
-            season={1} episode={1} onSelect={props.onStorylineSelected} />
-          <Storyline name="Bernard" screenshot={bernard} locations={['Control Room', 'Behavior Lab and Diagnostics']}
-            description=""
-            season={1} episode={2} onSelect={props.onStorylineSelected} />
-        </TimelineStorylinesBlock>
-      </div>
-    </section>
-  );
+interface ITimelineState {
+  blocks: object[];
+  selectedStorylineData: IStorylineData | null;
+}
+
+class Timeline extends React.Component<ITimelineProps, ITimelineState> {
+  constructor(props: ITimelineProps) {
+    super(props);
+    this.state = {
+      blocks: timelineData.blocks,
+      selectedStorylineData: null,
+    }
+  }
+  public render() {
+    return (
+      <section className="Timeline">
+        <div className="Timeline_container">
+          {this.state.blocks.map(this.blockDataToComponent)}
+        </div>
+      </section>
+    );
+  }
+
+  private blockDataToComponent = (block: any) => {
+    const key = JSON.stringify(block);
+    switch (block.type) {
+      case "year":
+        return <TimelineYearBlock year={block.year} key={key}/>
+      case "text":
+        return <TimelineTextBlock title={block.title} text={block.text} key={key}/>
+      case "storylines":
+        return (
+          <TimelineStorylinesBlock key={key}>
+            {block.storylines.map((data: IStorylineData) => (
+              <Storyline data={data} selected={data === this.state.selectedStorylineData}
+                onSelect={this.onStorylineSelected.bind(this, data)} key={JSON.stringify(data)} />
+            ))}
+          </TimelineStorylinesBlock>
+        );
+      default:
+        return null;
+    }
+  }
+
+  private onStorylineSelected = (data: IStorylineData, i: number) => {
+    this.setState({ selectedStorylineData: data });
+    this.props.onStorylineSelected(data);
+  }
 }
 
 export default Timeline;

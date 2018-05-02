@@ -1,22 +1,30 @@
 import * as React from 'react';
+import '../styles/Storyline.css';
 
-export interface IStorylineProps {
+export interface IStorylineData {
   name: string;
   description: string;
-  screenshot: string;
+  screenshotFile: string;
   characters?: string[];
   locations?: string[];
-  inMesaHub?: boolean
+  inMesaHub?: boolean;
   season: number;
   episode: number;
-  onSelect: (props: IStorylineProps) => void;
+}
+
+interface IStorylineProps {
+  data: IStorylineData
+  selected?: boolean;
+  onSelect: () => void;
 };
 
 function Storyline(this: any, props: IStorylineProps) {
   return (
-    <figure onClick={props.onSelect.bind(this, props)}>
-      <img src={props.screenshot} />
-      <figcaption>S{props.season}E{props.episode}</figcaption>
+    <figure className="Storyline" onClick={props.onSelect}>
+      <img src={process.env.PUBLIC_URL + '/storyline-screenshots/' + props.data.screenshotFile} />
+      <figcaption className={props.selected ? 'Storyline_caption--selected' : ''}>
+        S{props.data.season}E{props.data.episode}
+      </figcaption>
     </figure>
   );
 }

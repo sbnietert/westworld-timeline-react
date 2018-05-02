@@ -1,0 +1,23 @@
+.Storyline img {
+  float: left;
+  max-height: 100px;
+  width: auto;
+}
+
+.Storyline figcaption {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 0.25em;
+  font-family: AvenirLT-Light, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Storyline figure:hover figcaption {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.Storyline_caption--selected {
+  color: black;
+  background-color: #ff9f00;
+}

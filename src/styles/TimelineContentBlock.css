@@ -5,6 +5,12 @@
   left: 10px;
   top: 10px;
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.2);
+  transition-property: box-shadow;
+  transition-duration: 0.3s;
+}
+
+.TimelineBlock:hover .TimelineBlock_marker--content {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.25);
 }
 
 .TimelineContentBlock_content {

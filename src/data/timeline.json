@@ -1,0 +1,66 @@
+{
+  "blocks": [
+    {
+      "type": "year",
+      "year": 2017
+    },
+    {
+      "type": "text",
+      "title": "Early Days of the Park",
+      "text": "Arnold and Ford create hosts as they prepare to open Westworld."
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Welcome to Sweetwater",
+          "description": "Dolores is introduced as the audience witnesses her standard timeloop for the first time.",
+          "screenshotFile": "dolores.png",
+          "locations": ["Sweetwater", "Abernathy Ranch"],
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "name": "Behind the Scenes",
+          "description": "Bernard and his team notice Ford's 'reveries' update.",
+          "screenshotFile": "bernard.jpg",
+          "locations": ["Control Room", "Behavior Lab", "Mesa Gold"],
+          "inMesaHub": true,
+          "season": 1,
+          "episode": 2
+        }
+      ]
+    },
+    {
+      "type": "year",
+      "year": 2022
+    },
+    {
+      "type": "text",
+      "title": "William and Logan's Visit",
+      "text": "William and Logan come to the park, eventually saving it from financial collapse with a large monetary investment."
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Dolores",
+          "description": "",
+          "screenshotFile": "dolores.png",
+          "locations": ["Lowlands", "Sea"],
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "name": "Bernard",
+          "description": "",
+          "screenshotFile": "bernard.jpg",
+          "locations": ["Control Room", "Behavior Lab"],
+          "inMesaHub": true,
+          "season": 1,
+          "episode": 3
+        }
+      ]
+    }
+  ]
+}

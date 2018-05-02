@@ -14,24 +14,3 @@
   border-top-right-radius: 0.25em;
   border-bottom-right-radius: 0.25em;
 }
-
-.TimelineContentBlock_content--storylines img {
-  float: left;
-  max-height: 100px;
-  width: auto;
-}
-
-.TimelineContentBlock_content--storylines figcaption {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  padding: 0.25em;
-  font-family: AvenirLT-Light, sans-serif;
-  transition-property: background-color;
-  transition-duration: 0.3s;
-}
-
-.TimelineContentBlock_content--storylines figure:hover figcaption {
-  filter: brightness(125%);
-  background-color: rgba(255, 255, 255, 0.2);
-}
