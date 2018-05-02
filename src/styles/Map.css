@@ -1,0 +1,9 @@
+.Map {
+  overflow-x: hidden;
+  cursor: move;
+}
+
+.Map svg {
+  height: 100%;
+  vertical-align: top;
+}

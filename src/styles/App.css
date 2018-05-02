@@ -50,10 +50,10 @@ Style
 
 .App header {
   height: 150px;
-  border-bottom: 1px solid #7b3e29;
+  border-bottom: 1px solid #ff9f00;
 }
 
-.map-header {
+.StorylineDetails {
   float: right;
   width: 50%;
   height: 100%;
@@ -83,15 +83,14 @@ Style
   height: calc(100% - 151px);
 }
 
-.map-test {
+.Timeline {
+  width: 50%;
+  height: 100%;
+  float:left;
+}
+
+.Map {
   height: 100%;
   width: 50%;
   float: right;
-  background: red;
-  overflow-x: scroll;
-  overflow-y: hidden;
-}
-
-.map-test img {
-  height: 100%;
 }

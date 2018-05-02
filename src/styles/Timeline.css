@@ -1,7 +1,4 @@
 .Timeline {
-  width: 50%;
-  height: 100%;
-  float:left;
   overflow-y: scroll;
 }
 
