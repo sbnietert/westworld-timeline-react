@@ -11,15 +11,16 @@
   padding: 0.25em;
   font-family: AvenirLT-Medium, sans-serif;
   background-color: rgba(0, 0, 0, 0.6);
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, opacity 0.3s;
+  opacity: 0;
 }
 
 .Storyline figcaption.Storyline_caption--dark {
-  background-color: rgba(255, 255, 255, 0.4);
   color: black;
 }
 
 .Storyline:hover figcaption {
+  opacity: 1;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -28,5 +29,6 @@
 }
 
 .Storyline figcaption.Storyline_caption--selected {
+  opacity: 1;
   background-color: rgba(255, 159, 0, 0.8);
 }

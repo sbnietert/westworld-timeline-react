@@ -39,7 +39,8 @@
           "description": "William and his soon-to-be brother-in-law Logan Delos arrive at the Westworld Mesa Hub, where they are welcomed by Angela. On their train ride into the park, Logan explains how he can't wait to find out who William really is. In Sweetwater, Logan is cruel to the hosts, while William shows restraint. There, Dolores has a flashback to an interview with Arnold, and she catches Williams eye.",
           "locations": ["Arrivals Monorail Terminal", "Sweetwater", "Escalante"],
           "season": 1,
-          "episode": 2
+          "episode": 2,
+          "darkMode": true
         }
       ]
     },
