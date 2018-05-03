@@ -29,7 +29,19 @@
     {
       "type": "text",
       "title": "William and Logan's Visit",
-      "text": "William and Logan come to the park, eventually saving it from financial collapse with a large monetary investment."
+      "text": "William and Logan come to the park, where the events that unfold transform William into the Man in Black."
+    },
+    {
+      "type": "storylines",
+      "storylines":[
+        {
+          "name": "William and Logan Arrive",
+          "description": "William and his soon-to-be brother-in-law Logan Delos arrive at the Westworld Mesa Hub, where they are welcomed by Angela. On their train ride into the park, Logan explains how he can't wait to find out who William really is. In Sweetwater, Logan is cruel to the hosts, while William shows restraint. There, Dolores has a flashback to an interview with Arnold, and she catches Williams eye.",
+          "locations": ["Arrivals Monorail Terminal", "Sweetwater", "Escalante"],
+          "season": 1,
+          "episode": 2
+        }
+      ]
     },
     {
       "type": "year",
@@ -60,12 +72,56 @@
         },
         {
           "name": "Behind the Curtain",
-          "description": "We get our first look into Westworld management, where lead programmer Bernard, head of Quality Assurance Theresa, and narrative director Lee Sizemore discover that Ford's 'reveries' update is causing hosts to malfunction. Sizemore suspects that a more sinister purpose lies behind Westworld than a vacation for guests, and Theresa confirms this without elaborating. They recall several hosts from Sweetwater including Peter Abernathy, whose 'exit interview' with Ford frightens them.",
+          "description": "We get our first look into Westworld's facilities hub, where lead programmer Bernard, head of Quality Assurance Theresa, and narrative director Lee Sizemore discover that Ford's 'reveries' update is causing hosts to malfunction. Sizemore suspects that a more sinister purpose lies behind Westworld than a vacation for guests, and Theresa confirms this without elaborating. They recall several hosts from Sweetwater including Peter Abernathy, whose 'exit interview' with Ford frightens them.",
           "locations": ["Mesa", "Control Room", "Manufacturing", "Behavior Lab and Diagnostics", "Cold Storage", "Mesa Gold", "Sweetwater"],
           "inMesaHub": true,
           "season": 1,
           "episode": 1,
           "darkMode": true
+        }
+      ]
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Aberrant Behavior",
+          "description": "Dolores hears a voice in her head telling her to wake up, so she leaves her bed and walks outside to find a gun buried in the ground. In Sweetwater, she has a flashback to a town of dead hosts she killed during her previous life as Wyatt.",
+          "locations": ["Abernathy Ranch", "Sweetwater", "Escalante"],
+          "season": 1,
+          "episode": 2
+        },
+        {
+          "name": "Containing the Bug",
+          "description": "Elsie suggests to Bernard that Abernathy's aberrant behavior might be contagious. Ford dismisses the idea that someone is sabotaging their code. Sizemore discusses his grand new narrative with Theresa, but it is later shut down by Ford. Bernard and Theresa sleep together.",
+          "locations": ["Behavior Lab and Diagnostics", "Manufacturing", "Control Room", "Narrative and Design", "Executive Living Quarters"],
+          "inMesaHub": true,
+          "season": 1,
+          "episode": 2,
+          "darkMode": true
+        },
+        {
+          "name": "Maeve's Dreams",
+          "description": "In Sweetwater, Dolores sees Maeve on the street and tells her, 'violent delights have violent ends,' the phrase her father told her before she was decommissioned. Later at the saloon, Maeve has a flashback of a Ghost Nation attack from her previous life as a homesteader. Her strange behavior warrants her a visit to diagnostics, where they amp up her aggression. Another flashback during the saloon's hours is cause for Ashley to schedule her for decommissioning, but Elsie later circumvents this decision and adjusts Maeve's social perceptiveness. At the saloon, Maeve chats with Teddy, hinting at a prior transgression of his, but he is slaughtered in front of her by a guest. That night, she dreams again of the Ghost Nation attack, but this time William appears as the Man in Black to kill her. She wakes up from her dream to find herself in Livestock Management and escapes from techs Felix and Sylvester with a scalpel. She doesn't make it far, however, before being tranquilized.",
+          "locations": ["Sweetwater", "Mesa", "Control Room", "Behavior Lab and Diagnostics", "Livestock Management"],
+          "inMesaHub": true,
+          "season": 1,
+          "episode": 2,
+          "darkMode": true
+        },
+        {
+          "name": "Ford and the White Church",
+          "description": "Ford walks through the desert of the Unclaimed Territories with Young Boy, one of the park's first hosts, and they come across the White Church, buried in sand. Ford tells the boy that he will forget this encounter. Later, Ford comes back to the location with Bernard, telling him that he has planned a new, original narrative.",
+          "locations": ["Desert", "Escalante"],
+          "season": 1,
+          "episode": 2
+        },
+        {
+          "name": "Quest for the Maze",
+          "description": "The Man in Black continues his search and takes outlaw Lawrence captive after rescuing him from the gallows. He then takes Lawrence to his hometown, Las Mudas, and kills Lawrence's cousins and wife, demanding knowledge about the maze. As he turns to kill Lawrence's daughter, she gives him a cryptic clue to go to the Blood Arroyo.",
+          "locations": ["Las Mudas"],
+          "season": 1,
+          "episode": 2
         }
       ]
     }

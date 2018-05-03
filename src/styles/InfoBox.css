@@ -5,6 +5,11 @@
   flex-direction: column;
 }
 
+.App .InfoBox ::selection {
+  background-color: black;
+  color: #ff9f00;
+}
+
 .InfoBox header {
   display: flex;
   flex-direction: row;

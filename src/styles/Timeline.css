@@ -1,3 +1,8 @@
+.Timeline ::selection {
+  background-color: #ff9f00;
+  color: black;
+}
+
 .Timeline_scrollbar {
   background-color: rgb(255, 159, 0);
   border-radius: 6px;

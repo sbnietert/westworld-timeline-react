@@ -25,25 +25,3 @@
   display: table;
   clear: both;
 }
-
-.TimelineContentBlock_content::before {
-  /* triangle next to content block */
-  content: '';
-  position: absolute;
-  top: 13px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid rgba(255, 255, 255, 0.15);
-}
-
-.TimelineContentBlock_content h2 {
-  color: white;
-}
-
-.TimelineContentBlock_content p {
-  margin: 1em 0 0 0;
-  line-height: 1.6;
-  overflow: hidden;
-}

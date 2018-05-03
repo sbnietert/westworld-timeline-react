@@ -59,6 +59,11 @@ Style
   border-bottom: 1px solid #ff9f00;
 }
 
+.App > header ::selection {
+  background-color: #ff9f00;
+  color: black;
+}
+
 .InfoBox {
   float: right;
   width: 50%;

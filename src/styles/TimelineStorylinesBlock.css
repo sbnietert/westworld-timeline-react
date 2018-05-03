@@ -4,16 +4,5 @@
   overflow: hidden;
   cursor: pointer;
   padding-left: 3px;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.TimelineContentBlock_content--storylines figure:first-child {
-  border-top-left-radius: 0.25em;
-  border-bottom-left-radius: 0.25em;
-  padding-left: 0px;
-}
-
-.TimelineContentBlock_content--storylines figure:last-child {
-  border-top-right-radius: 0.25em;
-  border-bottom-right-radius: 0.25em;
+  padding-bottom: 3px;
 }
