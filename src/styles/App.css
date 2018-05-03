@@ -54,12 +54,12 @@ Style
   letter-spacing: 1px;
 }
 
-.App header {
+.App > header {
   height: 150px;
   border-bottom: 1px solid #ff9f00;
 }
 
-.StorylineDetails {
+.InfoBox {
   float: right;
   width: 50%;
   height: 100%;

@@ -1,0 +1,33 @@
+.InfoBox {
+  background-color: #ff9f00;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.InfoBox header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.InfoBox h2 {
+  padding: 6px;
+}
+
+.InfoBox_title {
+  background-color: black;
+  color: #ff9f00;
+}
+
+.InfoBox_name {
+  flex: 2;
+  text-align: center;
+}
+
+.InfoBox_content {
+  padding: 10px;
+  overflow-y: auto;
+  height: 100%;
+  flex: 1;
+}

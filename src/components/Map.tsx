@@ -3,7 +3,7 @@ import * as React from 'react';
 import DragScroll from 'react-dragscroll';
 // @ts-ignore
 import { Samy, SvgProxy } from 'react-samy-svg'; 
-import mapSvgPath from '../images/map.svg';
+import mapSvgPath from '../images/map2.svg';
 import '../styles/Map.css';
 
 interface IMapProps {
@@ -32,7 +32,7 @@ class Map extends React.Component<IMapProps> {
         <Samy path={mapSvgPath}>
           <SvgProxy selector="rect" display="none"/>
           {this.props.selectedLocations && this.props.selectedLocations.map((loc, i) => {
-            const id = '#' + loc.replace(' ','_');
+            const id = '#' + loc.split(' ').join('_');
             return <SvgProxy selector={id} display="inline" key={loc}/>
           })}
         </Samy>
@@ -62,8 +62,6 @@ class Map extends React.Component<IMapProps> {
   }
 
   private animateScroll = () => {
-    // tslint:disable-next-line:no-console
-    console.log(this.animationProgress);
     this.animationProgress = Math.min((Date.now() - this.animationStartTime)/this.animationDuration, 1);
     this.divEl.scrollLeft = this.animationStart + easeInOut(this.animationProgress)*(this.animationTarget - this.animationStart);
     if (this.animationProgress < 1) {

@@ -13,11 +13,11 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-.Storyline figure:hover figcaption {
+.Storyline:hover figcaption {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.Storyline_caption--selected {
+.Storyline figcaption.Storyline_caption--selected {
   color: black;
   background-color: #ff9f00;
 }
