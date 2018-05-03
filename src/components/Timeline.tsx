@@ -2,10 +2,12 @@ import * as React from 'react';
 // @ts-ignore
 import timelineData from '../data/timeline.json';
 import '../styles/Timeline.css';
+
 import Storyline, { IStorylineData } from './Storyline';
 import TimelineStorylinesBlock from './TimelineStorylinesBlock';
 import TimelineTextBlock from './TimelineTextBlock';
 import TimelineYearBlock from './TimelineYearBlock';
+import UpgradedScrollbars from './UpgradedScrollbars';
 
 interface ITimelineProps {
   onStorylineSelected: (data: IStorylineData) => void;
@@ -24,13 +26,16 @@ class Timeline extends React.Component<ITimelineProps, ITimelineState> {
       selectedStorylineData: null,
     }
   }
+
   public render() {
     return (
-      <section className="Timeline">
-        <div className="Timeline_container">
-          {this.state.blocks.map(this.blockDataToComponent)}
-        </div>
-      </section>
+      <div className="Timeline">
+        <UpgradedScrollbars scrollbarClass="Timeline_scrollbar">
+          <div className="Timeline_container">
+            {this.state.blocks.map(this.blockDataToComponent)}
+          </div>
+        </UpgradedScrollbars>
+      </div>
     );
   }
 
@@ -38,9 +43,9 @@ class Timeline extends React.Component<ITimelineProps, ITimelineState> {
     const key = JSON.stringify(block);
     switch (block.type) {
       case "year":
-        return <TimelineYearBlock year={block.year} key={key}/>
+        return <TimelineYearBlock year={block.year} key={key} />
       case "text":
-        return <TimelineTextBlock title={block.title} text={block.text} key={key}/>
+        return <TimelineTextBlock title={block.title} text={block.text} key={key} />
       case "storylines":
         return (
           <TimelineStorylinesBlock key={key}>

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import '../styles/InfoBox.css';
+import UpgradedScrollbars from './UpgradedScrollbars';
 
 interface IInfoBoxProps {
   title: string;
@@ -14,8 +15,13 @@ function InfoBox(props: IInfoBoxProps) {
         <h2 className="InfoBox_name">{props.name}</h2>
         <h2 className="InfoBox_title">{props.title}</h2>
       </header>
+      
       <div className="InfoBox_content">
-        {props.children}
+        <UpgradedScrollbars scrollbarClass="InfoBox_scrollbar">
+          <div className="InfoBox_inner-content">
+            {props.children}
+          </div>
+        </UpgradedScrollbars>
       </div>
     </div>
   );

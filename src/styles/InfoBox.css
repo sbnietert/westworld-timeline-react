@@ -26,8 +26,18 @@
 }
 
 .InfoBox_content {
-  padding: 10px;
-  overflow-y: auto;
   height: 100%;
   flex: 1;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.InfoBox_inner-content {
+  padding: 10px;
+  height: calc(100%-20px);
+}
+
+.InfoBox_scrollbar {
+  background-color: black;
+  border-radius: 6px;
 }

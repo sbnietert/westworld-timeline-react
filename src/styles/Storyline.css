@@ -9,15 +9,24 @@
   bottom: 0px;
   right: 0px;
   padding: 0.25em;
-  font-family: AvenirLT-Light, sans-serif;
+  font-family: AvenirLT-Medium, sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
   transition: background-color 0.3s, color 0.3s;
 }
 
+.Storyline figcaption.Storyline_caption--dark {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+
 .Storyline:hover figcaption {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Storyline:hover .Storyline_caption--dark:not(.Storyline_caption--selected) {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .Storyline figcaption.Storyline_caption--selected {
-  color: black;
-  background-color: #ff9f00;
+  background-color: rgba(255, 159, 0, 0.8);
 }

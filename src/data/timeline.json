@@ -13,21 +13,12 @@
       "type": "storylines",
       "storylines": [
         {
-          "name": "Welcome to Sweetwater",
-          "description": "Dolores is introduced as the audience witnesses her standard timeloop for the first time.",
-          "screenshotFile": "dolores.png",
-          "locations": ["Sweetwater", "Abernathy Ranch"],
+          "name": "Diagnostic Test",
+          "description": "Arnold questions Dolores at the Remote Diagnostic Facility (RDF), asking her if she doubts the nature of her reality.",
+          "locations": ["Escalante"],
           "season": 1,
-          "episode": 1
-        },
-        {
-          "name": "Behind the Scenes",
-          "description": "Bernard and his team notice Ford's 'reveries' update.",
-          "screenshotFile": "bernard.jpg",
-          "locations": ["Control Room", "Behavior Lab", "Mesa Gold"],
-          "inMesaHub": true,
-          "season": 1,
-          "episode": 2
+          "episode": 1,
+          "darkMode": true
         }
       ]
     },
@@ -41,24 +32,40 @@
       "text": "William and Logan come to the park, eventually saving it from financial collapse with a large monetary investment."
     },
     {
+      "type": "year",
+      "year": 2052
+    },
+    {
+      "type": "text",
+      "title": "Present Day",
+      "text": "As Season 1 begins, Westworld has been running smoothly for decades, but Ford's latest 'reveries' update is causing the hosts to behave in unexpected ways."
+    },
+    {
       "type": "storylines",
       "storylines": [
         {
-          "name": "Dolores",
-          "description": "",
-          "screenshotFile": "dolores.png",
-          "locations": ["Lowlands", "Sea"],
+          "name": "Welcome to Sweetwater",
+          "description": "The audience is introduced to the hosts of Sweetwater, from Dolores, Peter Abernathy, and Teddy to Maeve and Clementine. The episode starts with a standard timeloop, but they are interrupted by the Man in Black and confronted with strange behavior from various hosts including Peter and lowlife criminal Walter. Later, bandits Hector Escaton and Armistice shoot up the down so that maintenance can replace some of the hosts, Peter among them. As the episode closes, Dolores kills a fly against her supposed 'no harm' programming.",
+          "locations": ["Sweetwater", "Abernathy Ranch"],
           "season": 1,
           "episode": 1
         },
         {
-          "name": "Bernard",
-          "description": "asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf",
-          "screenshotFile": "bernard.jpg",
-          "locations": ["Control Room", "Arrivals Monorail Terminal", "Badlands"],
+          "name": "Meet the Man in Black",
+          "description": "William makes a ruthless introduction as the Man in Black, murdering Teddy and having his way with Dolores. Later, he greets her charmingly in Sweetwater before beginning a mysterious quest for a maze that involves scalping Mariposa Saloon dealer Kissy.",
+          "locations": ["Sweetwater", "Abernathy Ranch"],
+          "inMesaHub": false,
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "name": "Behind the Curtain",
+          "description": "We get our first look into Westworld management, where lead programmer Bernard, head of Quality Assurance Theresa, and narrative director Lee Sizemore discover that Ford's 'reveries' update is causing hosts to malfunction. Sizemore suspects that a more sinister purpose lies behind Westworld than a vacation for guests, and Theresa confirms this without elaborating. They recall several hosts from Sweetwater including Peter Abernathy, whose 'exit interview' with Ford frightens them.",
+          "locations": ["Mesa", "Control Room", "Manufacturing", "Behavior Lab and Diagnostics", "Cold Storage", "Mesa Gold", "Sweetwater"],
           "inMesaHub": true,
           "season": 1,
-          "episode": 3
+          "episode": 1,
+          "darkMode": true
         }
       ]
     }

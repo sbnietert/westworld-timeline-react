@@ -1,8 +1,11 @@
+
 import * as React from 'react';
 // @ts-ignore
 import DragScroll from 'react-dragscroll';
 // @ts-ignore
-import { Samy, SvgProxy } from 'react-samy-svg'; 
+import { Samy, SvgProxy } from 'react-samy-svg';
+// @ts-ignore
+import { MoonLoader } from 'react-spinners';
 import mapSvgPath from '../images/map2.svg';
 import '../styles/Map.css';
 
@@ -36,6 +39,11 @@ class Map extends React.Component<IMapProps> {
             return <SvgProxy selector={id} display="inline" key={loc}/>
           })}
         </Samy>
+        <div className="Map_loading-indicator-container">
+          <div className="Map_loading-indicator">
+            <MoonLoader color="rgb(255, 159, 0)" loading={true}/>
+          </div>
+        </div>
       </DragScroll>
     );
   }

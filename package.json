@@ -1,13 +1,17 @@
 {
   "name": "westworld-timeline-react",
+  "homepage": "http://sloan.nietert.me/westworld-timeline",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react-custom-scrollbars": "^4.0.3",
     "react": "^16.3.2",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.3.2",
     "react-dragscroll": "^2.0.1",
     "react-samy-svg": "^3.0.7",
     "react-scripts-ts": "2.15.1",
+    "react-spinners": "^0.3.2",
     "svg-react-loader": "^0.4.5"
   },
   "scripts": {
