@@ -229,6 +229,7 @@
           "name": "The Bicameral Mind",
           "description": "Theresa confronts Bernard about Ford taking over with his new narrative and asks for honesty about the problem with the hosts. Next, Elsie shows Bernard a clip of Walter talking to Arnold’s voice in his head and explains that he only killed those who hurt him in previous storylines. Elsie then notices a stray host in the park, and Bernard sends her off to find it. Bernard comes to Ford with their new knowledge about the hosts’ behavior, and Ford reveals to him that Arnold was his partner years ago. Looking at an old photograph, Bernard is unable to see Arnold, in whose image he was created, so he assumes that Ford’s father is Arnold. Ford explains that Arnold tried to create consciousness but failed and killed himself, not saying how. He warns Bernard to not make the same mistake and assume that there is anything more to the hosts. Later, Bernard video calls his ex-wife, a backstory character presumably manufactured by Ford, and the two reminisce about Charlie.",
           "locations": ["Behavior Lab and Diagnostics", "Executive Offices"],
+          "inMesaHub": true,
           "season": 1,
           "episode": 3,
           "darkMode": true
