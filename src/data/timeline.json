@@ -1,13 +1,26 @@
 {
   "blocks": [
     {
-      "type": "year",
-      "year": 2017
-    },
-    {
       "type": "text",
       "title": "Early Days of the Park",
       "text": "Arnold and Ford create hosts as they prepare to open Westworld."
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Tinkering",
+          "description": "Ford and Arnold’s machines finally begin to pass the Turing test, but Arnold isn’t satisfied as he attempts to create consciousness itself. He gives the hosts an internal monologue which he hopes they will replace with their own, but that has unintended consequences at first.",
+          "locations": ["Escalante"],
+          "season": 1,
+          "episode": 3,
+          "darkMode": true
+        }
+      ]
+    },
+    {
+      "type": "year",
+      "year": 2017
     },
     {
       "type": "storylines",
@@ -19,6 +32,33 @@
           "season": 1,
           "episode": 1,
           "darkMode": true
+        },
+        {
+          "name": "Flashback of Arnold",
+          "description": "[Flashback from 2052] Arnold talks to Dolores again, asking her if she has told anyone about their conversations. He tells her to go into Analysis Mode and ensures that no one has tampered with her core programming. She asks if he has done anything wrong, and he tells her to remove the conversation from her logs.",
+          "locations": ["Escalante"],
+          "season": 1,
+          "episode": 2,
+          "darkMode": true
+        },
+        {
+          "name": "Wonderland",
+          "description": "Arnold and Dolores have another private conversation where Dolores reads Arnold a passage from Alice in Wonderland and asks him about his son Charlie. Later, he comes to her again, explaining that he made a mistake and needs to restore her to a previous version. Arnold changes his mind after she talks of self-discovery, and he tells her about his son.",
+          "locations": ["Escalante"],
+          "season": 1,
+          "episode": 3
+        }
+      ]
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Wyatt Flashback",
+          "description": "[Flashback from 2022] Dolores stands in a town of dead hosts she killed during her Wyatt storyline.",
+          "locations": ["Escalante"],
+          "season": 1,
+          "episode": 2
         }
       ]
     },
@@ -37,10 +77,38 @@
         {
           "name": "William and Logan Arrive",
           "description": "William and his soon-to-be brother-in-law Logan Delos arrive at the Westworld Mesa Hub, where they are welcomed by Angela. On their train ride into the park, Logan explains how he can't wait to find out who William really is. In Sweetwater, Logan is cruel to the hosts, while William shows restraint. There, Dolores has a flashback to an interview with Arnold, and she catches Williams eye.",
-          "locations": ["Arrivals Monorail Terminal", "Sweetwater", "Escalante"],
+          "locations": ["Arrivals Monorail Terminal", "Sweetwater"],
           "season": 1,
           "episode": 2,
           "darkMode": true
+        },
+        {
+          "name": "Bounty Hunt",
+          "description": "In Sweetwater, a wanted man takes Clementine hostage, and William shoots him to save her, committing his first act of violence in Westworld. He then convinces Logan to join him for a bounty hunt. Logan is complaining of his boredom at their campsite when a dazed Dolores stumbles in on them and falls into William’s arms.",
+          "locations": ["Sweetwater"],
+          "season": 1,
+          "episode": 3
+        }
+      ]
+    },
+    {
+      "type": "year",
+      "year": 2051
+    },
+    {
+      "type": "text",
+      "title": "The Man in Black Returns",
+      "text": "After his wife Juliet commits suicide, William returns to Westworld to see if he can feel anything."
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Homestead Terror",
+          "description": "[Flashback/Dreams from 2052] Maeve recalls joyful memories with her daughter from her previous life as a homesteader. However, these are interrupted by a savage attack from the Ghost Nation. Hiding in her home with a gun, she expects to see a tribe member, but, instead, the Man in Black comes in with a knife.",
+          "locations": [],
+          "season": 1,
+          "episode": 2
         }
       ]
     },
@@ -87,10 +155,11 @@
       "storylines": [
         {
           "name": "Aberrant Behavior",
-          "description": "Dolores hears a voice in her head telling her to wake up, so she leaves her bed and walks outside to find a gun buried in the ground. In Sweetwater, she has a flashback to a town of dead hosts she killed during her previous life as Wyatt.",
-          "locations": ["Abernathy Ranch", "Sweetwater", "Escalante"],
+          "description": "Dolores hears a voice in her head telling her to wake up, so she leaves her bed and walks outside to find a gun buried in the ground. In Sweetwater, she tells Maeve 'violent delights have violent ends,' and has a flashback to a town of dead hosts she killed during her previous life as Wyatt.",
+          "locations": ["Abernathy Ranch", "Sweetwater"],
           "season": 1,
-          "episode": 2
+          "episode": 2,
+          "darkMode": true
         },
         {
           "name": "Containing the Bug",
@@ -103,7 +172,7 @@
         },
         {
           "name": "Maeve's Dreams",
-          "description": "In Sweetwater, Dolores sees Maeve on the street and tells her, 'violent delights have violent ends,' the phrase her father told her before she was decommissioned. Later at the saloon, Maeve has a flashback of a Ghost Nation attack from her previous life as a homesteader. Her strange behavior warrants her a visit to diagnostics, where they amp up her aggression. Another flashback during the saloon's hours is cause for Ashley to schedule her for decommissioning, but Elsie later circumvents this decision and adjusts Maeve's social perceptiveness. At the saloon, Maeve chats with Teddy, hinting at a prior transgression of his, but he is slaughtered in front of her by a guest. That night, she dreams again of the Ghost Nation attack, but this time William appears as the Man in Black to kill her. She wakes up from her dream to find herself in Livestock Management and escapes from techs Felix and Sylvester with a scalpel. She doesn't make it far, however, before being tranquilized.",
+          "description": "In Sweetwater, Dolores sees Maeve on the street and tells her, 'violent delights have violent ends,' the phrase her father told her before he was decommissioned. Later at the saloon, Maeve has a flashback of a Ghost Nation attack from her previous life as a homesteader. Her strange behavior warrants her a visit to diagnostics, where they amp up her aggression. Another flashback during the saloon's hours is cause for Stubbs to schedule her for decommissioning, but Elsie later circumvents this decision and adjusts Maeve's social perceptiveness. At the saloon, Maeve chats with Teddy, hinting at a prior transgression of his, but he is slaughtered in front of her by a guest. That night, she dreams again of the Ghost Nation attack, but this time William appears as the Man in Black to kill her. She wakes up from her dream to find herself in Livestock Management and escapes from techs Felix and Sylvester with a scalpel. She doesn't make it far, however, before being tranquilized.",
           "locations": ["Sweetwater", "Mesa", "Control Room", "Behavior Lab and Diagnostics", "Livestock Management"],
           "inMesaHub": true,
           "season": 1,
@@ -123,6 +192,38 @@
           "locations": ["Las Mudas"],
           "season": 1,
           "episode": 2
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "The New Narrative Begins",
+      "text": "Ford begins to roll out his new narrative which involves a terrifying villain named Wyatt, presumably based on the role Dolores played during the early days of the park."
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Pulling the Trigger",
+          "description": "Dolores wakes up to find a gun in her draw and has a flashback to an encounter with the Man in Black. She checks again and the gun is gone. In town, she meets Teddy, who comes back with her to the ranch. She has dreams of running of with him, but he claims he has reckoning to do. Later in Diagnostics, Ford gives Teddy a new backstory based on a villain named Wyatt. The next day, Teddy saves Dolores from Rebus and tries to teach her to shoot at the ranch; however, she can’t bring herself to pull the trigger. Teddy is called upon by the sheriff to go after Wyatt, and he heads out of town, only to be ambushed by Wyatt’s masked men. Dolores comes back to her ranch home that night to find her replacement father murdered by Rebus, whom she shoots after a voice in her head tells her to do so.",
+          "locations": ["Abernathy Ranch", "Sweetwater"],
+          "season": 1,
+          "episode": 3
+        },
+        {
+          "name": "The Bicameral Mind",
+          "description": "Theresa confronts Bernard about Ford taking over with his new narrative and asks for honesty about the problem with the hosts. Next, Elsie shows Bernard a clip of Walter talking to Arnold’s voice in his head and explains that he only killed those who hurt him in previous storylines. Elsie then notices a stray host in the park, and Bernard sends her off to find it. Bernard comes to Ford with their new knowledge about the hosts’ behavior, and Ford reveals to him that Arnold was his partner years ago. Looking at an old photograph, Bernard is unable to see Arnold, in whose image he was created, so he assumes that Ford’s father is Arnold. Ford explains that Arnold tried to create consciousness but failed and killed himself, not saying how. He warns Bernard to not make the same mistake and assume that there is anything more to the hosts. Later, Bernard video calls his ex-wife, a backstory character presumably manufactured by Ford, and the two reminisce about Charlie.",
+          "locations": ["Behavior Lab and Diagnostics", "Executive Offices"],
+          "season": 1,
+          "episode": 3,
+          "darkMode": true
+        },
+        {
+          "name": "Search and Rescue",
+          "description": "Elsie and Stubbs head to the park surface to find the stray host, a woodcutter. They find his men stuck in a loop, waiting for him to return, and discover wood carvings of the constellation Orion in his tent. Eventually, they find the woodcutter trapped, but, when Stubbs attempts to decapitate the host for QA, the woodcutter awakens and escapes, only to bash his own head in with a rock.",
+          "locations": ["Python Pass"],
+          "season": 1,
+          "episode": 3
         }
       ]
     }
