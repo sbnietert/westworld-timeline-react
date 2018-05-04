@@ -47,6 +47,14 @@
           "locations": ["Escalante"],
           "season": 1,
           "episode": 3
+        },
+        {
+          "name": "Pain and Freedom",
+          "description": "Dolores talks to Arnold about the pain of her parent’s death. He offers to help her get rid of these feeling, but she declines, saying they are all she has left of her loved ones. Dolores admits that she believes something is wrong with her world or that she is going mad. She asks for Arnold’s help, and he responds by telling her about a maze that can set her free.",
+          "locations": ["Escalante"],
+          "season": 1,
+          "episode": 4,
+          "darkMode": true
         }
       ]
     },
@@ -84,10 +92,17 @@
         },
         {
           "name": "Bounty Hunt",
-          "description": "In Sweetwater, a wanted man takes Clementine hostage, and William shoots him to save her, committing his first act of violence in Westworld. He then convinces Logan to join him for a bounty hunt. Logan is complaining of his boredom at their campsite when a dazed Dolores stumbles in on them and falls into William’s arms.",
+          "description": "In Sweetwater, a wanted man takes Clementine hostage, and William shoots him to save her, committing his first act of violence in Westworld. He then convinces Logan to join him for a bounty hunt led by host Holden. Logan is complaining of his boredom at their campsite when a dazed Dolores stumbles in on them and falls into William’s arms.",
           "locations": ["Sweetwater"],
           "season": 1,
           "episode": 3
+        },
+        {
+          "name": "Black Hat",
+          "description": "Dolores wakes up with a gun in her hand to see William greeting her good morning. William tries to convince Logan that they should take Dolores back to Sweetwater, but he refuses and reveals that the Delos company has a stake in Westworld. They arrive in Las Mudas, where Dolores sees Lawrence’s daughter and has a flashback of the White Church and a gun in her hands. She talks to William about her father and a calling she feels to explore a different path, before having another flashback, this one of a hazmat crew cleaning up a scene after her death. William and Logan leave to find Slim with Holden, but after the captured outlaw talks of El Lazo in Pariah, Logan shoots Holden and tells William it’s time to go ‘black hat.’",
+          "locations": ["Las Mudas"],
+          "season": 1,
+          "episode": 4
         }
       ]
     },
@@ -188,7 +203,7 @@
         },
         {
           "name": "Quest for the Maze",
-          "description": "The Man in Black continues his search and takes outlaw Lawrence captive after rescuing him from the gallows. He then takes Lawrence to his hometown, Las Mudas, and kills Lawrence's cousins and wife, demanding knowledge about the maze. As he turns to kill Lawrence's daughter, she gives him a cryptic clue to go to the Blood Arroyo.",
+          "description": "The Man in Black continues his search and takes outlaw Lawrence captive after rescuing him from the gallows. He then takes Lawrence to his hometown, Las Mudas, and kills Lawrence's cousins and wife, demanding knowledge about the maze. As he turns to kill Lawrence's daughter, she gives him a cryptic clue to go to the Blood Arroyo where the snake lays its eggs.",
           "locations": ["Las Mudas"],
           "season": 1,
           "episode": 2
@@ -220,10 +235,37 @@
         },
         {
           "name": "Search and Rescue",
-          "description": "Elsie and Stubbs head to the park surface to find the stray host, a woodcutter. They find his men stuck in a loop, waiting for him to return, and discover wood carvings of the constellation Orion in his tent. Eventually, they find the woodcutter trapped, but, when Stubbs attempts to decapitate the host for QA, the woodcutter awakens and escapes, only to bash his own head in with a rock.",
+          "description": "Elsie and Stubbs head to the park surface to find the stray host, a woodcutter. They find his men stuck in a loop, waiting for him to return, and discover wood carvings resembling the constellation Orion in his tent. Eventually, they find the woodcutter trapped, but, when Stubbs attempts to decapitate the host for QA, the woodcutter awakens and escapes, only to bash his own head in with a rock.",
           "locations": ["Python Pass"],
           "season": 1,
           "episode": 3
+        }
+      ]
+    },
+    {
+      "type": "storylines",
+      "storylines": [
+        {
+          "name": "Shades",
+          "description": "Maeve is working at the saloon with Clementine when she has a flashback of a being murdered by a current guest. She recalls being taken to Livestock Management, where techs leave a bullet inside of her due to time constraints. In her bedroom, she draws up a sketch of a tech in a hazmat suit and finds a stash of similar drawings under a floorboard. Later, a group of natives comes through town, and a child drops a doll that resembles the figures from her drawing. When she asks about the object, a bystander tells Maeve that the dolls hold religious significance to the natives. Hector’s gang arrives in Sweetwater for another shootout, and she brings the outlaw to her room at gunpoint to learn more about the men in suits. Hector explains that they are shades, sacred beings of native lore which were sent from hell to oversee their world. Maeve then convinces him to cut into her abdomen with a knife, and they find a bullet inside her, establishing to Maeve that her flashbacks are based in reality.",
+          "locations": ["Sweetwater"],
+          "season": 1,
+          "episode": 4,
+          "darkMode": true
+        },
+        {
+          "name": "Gods and Mortals",
+          "description": "Theresa slams Elsie and Bernard over the brutal host suicide and tells them that QA will take over these investigations from now own. Outside, Elsie speculates about the strange host behavior with Bernard, but he dismisses her and mentions that the host’s carvings could not be of Orion, because they have an extra star. The next morning, Theresa reveals to Bernard that she plans to confront Ford about the board’s concerns with his new narrative. She later meets Ford at the Agave Plantation, where he addresses her coldly, discusses his history with the board, and asserts his God-like authority by freezing hundreds of workers in front of her. Theresa notices that he has seated her at the same table she once ate with her parents, and Ford tells her that the park knows everything about her, including her relationship with Bernard. Their meeting comes to an end as he tells her to stay out of his way, and an excavator begins to destroy the plantation fields to make room for Ford’s new plans.",
+          "locations": ["Behavior Lab and Diagnostics", "Executive Living Quarters", "Agave Plantation"],
+          "season": 1,
+          "episode": 4
+        },
+        {
+          "name": "The Head of the Snake",
+          "description": "The Man in Black continues his search for the Maze with Lawrence, and they come upon Armistice bathing at a river bank. With her snake tattoo, she appears to be the answer to the riddle from Lawrence’s daughter. The Man in Black convinces Armistice to let them join her gang after killing two of her men, and, at their campsite that night, a guest gives him unwanted praise for his foundation’s work. In the morning, the Man in Black makes a bet with Armistice that he can steal the cannon she is after with Laurence in exchange for the story behind her tattoo, and she accepts. He and Lawrence get themselves arrested by Union cavalrymen and escape from the jail with Hector Escaton using explosive cigars. Upon their return, Armistice reveals that the tattoo represents the members of Wyatt’s gang remaining for her to kill as revenge for their murder of her family. All that’s left is the head of the snake, Wyatt himself. Her answer satisfies the Man in Black, so he leaves with Lawrence to find this villain. They don’t make it far before coming across Teddy, who has been mutilated and left for dead by Wyatt’s men.",
+          "locations": [],
+          "season": 1,
+          "episode": 4
         }
       ]
     }
