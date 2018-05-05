@@ -103,6 +103,13 @@
           "locations": ["Las Mudas"],
           "season": 1,
           "episode": 4
+        },
+        {
+          "name": "A New Path",
+          "description": "Dolores has another momentary lapse as she hears the voice in her head tell her, ‘find me.’ She arrives with William and Logan at the decadent and sinful city of Pariah, where Logan reveals that the park is supposedly losing money from this extravagance. He explains that the Delos corporation is considering buying them out and mentions the mystery behind Ford’s partner. Soon after, they come across the Confederados, a group of old Confederates who’ve refused to surrender. Dolores has another flashback to her experience as Wyatt and asks William about the real world afterwards, prompting him to feel like she understands him. A parade passes by and Dolores sees herself among its members. Later, their group is introduced to El Lazo, revealed to be Lawrence, and they convince him to let them take on a mission to steal nitroglycerin from Union soldiers to sell to the Confederados. Their mission goes awry and ends with William killing several unarmed soldiers. They bring the nitro back to Lawrence, who goes behind their back to replace it with tequila and steal the explosive for himself. While William and Logan argue, Dolores stumbles upon a card reader who tells her about the maze, and, afterwards, she discovers Lawrence’s scheme. She warns William about the plan, and the two share a kiss before escaping on a train after the Confederados learn of the trick and take Logan prisoner. Dolores kills several men along the way to protect William and, on the train, stops Lawrence from harming them by threatening to explode the nitro. As the last scene closes, she speaks to herself, ‘I’m coming.’",
+          "locations": ["Pariah"],
+          "season": 1,
+          "episode": 5
         }
       ]
     },
@@ -267,6 +274,44 @@
           "locations": [],
           "season": 1,
           "episode": 4
+        }
+      ]
+    },
+    {
+      "type": "storylines",
+      "storylines":[
+        {
+          "name": "The Chase",
+          "description": "In Cold Storage, Ford tells Old Bill a story about his childhood greyhound, a gift from his father. One day in a park, Ford and his brother let the dog run free, only for it to chase down and kill a cat. Having finally caught that which it had been pursuing, the racing dog seemed puzzled as if it had lost its purpose. Later, in Diagnostics, Ford speaks with Dolores, telling her that she is in his dream. In Analysis Mode, he asks her about Arnold and her last contact with him. She says that his final command was for her to help destroy this place. Out of analysis, she asks Ford if they are old friends, and he tells her that they were not friends at all. After Ford leaves, she speaks to the voice in her head, saying, ‘I didn’t tell him.’",
+          "locations": ["Cold Storage", "Behavior Lab and Diagnostics"],
+          "inMesaHub": true,
+          "season": 1,
+          "episode": 5,
+          "darkMode": true
+        },
+        {
+          "name": "Blood and Mystery",
+          "description": "The Man in Black continues travelling, taking both Lawrence and Teddy against their wills. He tells Lawrence that nobody will speak to him with Lawrence’s disdain in the real world. When Teddy grows too weak to go on, the Man in Black slits Lawrence’s throat to collect enough blood to keep Teddy alive. They have a brief encounter with the Young Boy at this time. Later, he and Teddy arrive at a bar and encounter Ford, with whom William has a cryptic discussion about Arnold and Wyatt. Ford forces Teddy to hold William back when he holds a knife, but afterwards he promises to not get in the way of this voyage of self-discovery.",
+          "locations": [],
+          "season": 1,
+          "episode": 5
+        },
+        {
+          "name": "Butcher's Dreams",
+          "description": "In Livestock Management, Sylvester and Felix are assigned to Maeve again. During a break, Felix works on reanimating a host bird with a ‘borrowed’ programming tablet. Sylvester walks in on this and tells him to give up his dreams of becoming more than the butcher he is. This doesn’t stop Felix from trying again during another break, and he actually succeeds in bringing the creature back to life. This time, however, Maeve wakes up, and, as the bird lands on her hand, she tells Felix that it’s time for a chat.",
+          "locations": ["Livestock Management"],
+          "inMesaHub": true,
+          "season": 1,
+          "episode": 5,
+          "darkMode": true
+        },
+        {
+          "name": "Constellation Espionage",
+          "description": "Elsie sees the dead woodcutter host being transported and follows him down to Livestock. There, she blackmails a tech named Destin with a video of him having sex with a dead host. He gives her a few minutes with the woodcutter, and she finds a transmitter hidden inside his body. She brings the device to Bernard and explains that someone is using it to smuggle date out of the park via satellite.",
+          "locations": ["Behavior Lab and Diagnostics", "Livestock Management"],
+          "inMesaHub": true,
+          "season": 1,
+          "episode": 5
         }
       ]
     }
